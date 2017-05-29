@@ -36,6 +36,6 @@ int main()
 	if(jumpSearch(a,n,x)==-1)
 		cout<<"Number is not found."<<endl;
 	else
-		cout<<"The number is found at position "<<jumpSearch(a,n,x)<<endl;
+		cout<<"The number is found at position "<<jumpSearch(a,n,x)+1<<endl;
 	return 0;
 }
